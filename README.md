@@ -18,7 +18,7 @@ and then hot-loads the plugin into the sidebar.
 Install as a Pi package:
 
 ```bash
-pi install npm:@sero-ai/plugin-calc
+pi install git:https://github.com/monobyte/sero-calc-plugin.git
 ```
 
 The agent gains a `calc` tool (evaluate, history, clear) and a `/calc`
